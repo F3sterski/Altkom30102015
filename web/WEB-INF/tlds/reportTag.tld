@@ -1,0 +1,21 @@
+<taglib>
+<tlib-version>1.0</tlib-version>
+<jsp-version>2.1</jsp-version>
+<short-name>report</short-name>
+<uri>http://adamzielke.com/reportstag</uri>
+<tag>
+    <name>report</name>
+    <tag-class>pl.tags.ReportTag</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+        <name>for</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+        <name>name</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+</tag>
+</taglib>
